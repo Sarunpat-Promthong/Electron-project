@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "files": ["dist-electron", "dist-react"],
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage"
+  },
+  "win": {
+    "target": "nsis"
+  }
+}
